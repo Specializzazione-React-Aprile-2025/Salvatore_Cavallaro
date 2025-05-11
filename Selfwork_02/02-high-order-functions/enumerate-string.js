@@ -7,4 +7,4 @@ let number = (array) => {
     return array.map( e => e = i++ + ': ' + e);
 }
 
-console.log(number([]));
+console.log(number(["a", "b", "c", "d"]));
